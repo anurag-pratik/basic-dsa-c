@@ -151,7 +151,7 @@ void reverse()
     first = last;
     last = temp;
 
-    printf("LIST REVERSED SUCCESSFULLY.\n");
+    printf("LIST IS REVERSED SUCCESSFULLY.\n");
 }
 
 
