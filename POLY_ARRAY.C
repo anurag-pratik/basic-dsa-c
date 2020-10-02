@@ -81,7 +81,7 @@ int main()
     int arr2[da2+1];
     for(i=0;i<=da2;i++)
     {
-        printf("Enter coefficient for power %d: ",i);
+        printf("Enter coefficient for power which is %d: ",i);
         scanf("%d",&arr2[i]);
     }
 
