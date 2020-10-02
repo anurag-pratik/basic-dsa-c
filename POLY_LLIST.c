@@ -20,7 +20,7 @@ struct node* create(int n)
 void lastt1(int p)
 {
     int nu;
-    printf("\nEnter coeff. for power %d: ",p);
+    printf("\nEnter coefficient for power %d: ",p);
     scanf("%d",&nu);
     newnd=create(nu);
     newnd->pow=p;
@@ -40,7 +40,7 @@ void lastt1(int p)
 void lastt2(int p)
 {
     int nu;
-    printf("\nEnter coeff. for power %d: ",p);
+    printf("\nEnter coefficient for power %d: ",p);
     scanf("%d",&nu);
     newnd=create(nu);
     newnd->pow=p;
