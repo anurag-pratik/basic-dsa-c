@@ -39,7 +39,7 @@ void firstt()
 void lastt()
 {
     int v;
-    printf("\nEnter value: ");
+    printf("\nEnter value to be inserted at the end: ");
     scanf("%d", &v);
     newnd=create(v);
     last=first;
@@ -64,7 +64,7 @@ void pos()
     int p;
     struct node *prev;
     ptr=first;
-    printf("Enter position: ");
+    printf("Enter position of the element to be deleted: ");
     scanf("%d",&p);
     int c;
     for(c=1;c<p;c++)
